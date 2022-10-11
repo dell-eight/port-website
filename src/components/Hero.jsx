@@ -45,7 +45,7 @@ const Hero = () => {
         <span className="ease-in duration-300 mobile:text-lg sMobile:text-base" >Resume</span>
       </div>
 
-      <Link to='projects' spy={true} smooth={true} offset={-60}>
+      <Link className='laptop:block sMobile:hidden' to='projects' spy={true} smooth={true} offset={-60}>
         <div className='absolute -ml-3 flex flex-col justify-center items-center bottom-10  cursor-pointer 
           motion-safe:animate-bounce opacity-40 '>
           <BsArrowDown className='text-lg  w-8 h-8 flex items-center justify-center p-1 rounded-full ' />
