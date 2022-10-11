@@ -47,7 +47,7 @@ const Contact = () => {
       <div className='h-full text-center bg-[#b6d5fc]' id='contact'>
       <h1 className='tablet:text-4xl sMobile:text-2xl font-bold '>{`<ContactMe />`}</h1>
       <div className='flex justify-center items-center tablet:mx-20 sMobile:mx-5 mt-10'>
-        <form  action='/#' onSubmit={handleClickSubmit} className='grid gap-5 laptop:w-[60%] sMobile:w-full tablet:p-10 sMobile:p-4'>
+        <form  action='https://dell-eight.github.io/port-website-react/' onSubmit={handleClickSubmit} className='grid gap-5 laptop:w-[60%] sMobile:w-full tablet:p-10 sMobile:p-4'>
           <input ref={nameRef} required type="name" placeholder='Name' className='w-full px-3 py-2 rounded-md' />
           <input ref={emailRef} required type="email" placeholder='Email Address' className='w-full px-3 py-2 rounded-md'/>
           <input ref={subjectRef} required type="text" placeholder='Subject' className='w-full px-3 py-2 rounded-md'/>
