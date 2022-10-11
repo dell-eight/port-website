@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Rubik:wght@400;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@layer components {
+  .card {
+    background-color: theme('colors.backgroundColor');
+    border-radius: theme('borderRadius.lg');
+    box-shadow: theme('boxShadow.xl');
+  }
+  .badge {
+    background-color: theme('colors.badgeBackground');
+    border-radius: theme('borderRadius.full');
+    box-shadow: theme('boxShadow.sm');
+    padding: theme('padding.2');
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+:root {
+  --bg-color: radial-gradient(
+    circle,
+    rgba(232, 229, 250, 1) 0%,
+    rgb(201, 221, 248) 48%,
+    rgba(232, 229, 250, 1) 100%
+  );
+  --primary-color: #262534;
+  --other-color: #5e90ce;
+  --secondary-color: rgb(5, 255, 180);
+
+  --primary-font: 'Rubik', sans-serif;
+  --secondary-font: 'Poppins', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: var(--bg-color);
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  scroll-behavior: smooth;
+}
+.resume-container:hover > .circle {
+  width: 135%;
+}
+
+.secondary-font {
+  font-family: var(--secondary-font);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
 }
