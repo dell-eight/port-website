@@ -11,9 +11,9 @@
   }
   .badge {
     background-color: theme('colors.badgeBackground');
-    border-radius: theme('borderRadius.full');
+    border-radius: theme('borderRadius.sm');
     box-shadow: theme('boxShadow.sm');
-    padding: theme('padding.2');
+    padding: theme('padding.1');
   }
 }
 

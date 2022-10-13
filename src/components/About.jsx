@@ -7,7 +7,7 @@ const About = () => {
         <div className='h-80 laptop:w-96 sMobile:h-60 w-full'>
           <h1 className='tablet:text-4xl sMobile:text-2xl font-bold'>{`<About />`}</h1>
           <p className='my-5 tablet:text-lg sMobile:text-base'>
-            Hi, I'm Wendell, a front-end developer with a keen eye for visual communication. I'm passionate about developing the highest quality websites.
+            Hi, I'm Wendell, a front-end developer. I'm passionate about developing the highest quality websites.
           </p>
           <p className='tablet:text-lg sMobile:text-base'> I'm currently looking for an apportunity to show my potential.</p>
         </div>
@@ -17,10 +17,9 @@ const About = () => {
             <ul className=' tablet:text-lg sMobile:text-base gap-2 flex flex-col list-[disclosure-closed]  p-6 '>
               <li>HTML, CSS, JS</li>
               <li>ReactJs</li>
-              <li>Firebase</li>
               <li>Git</li>
             </ul>
-            <ul className='ablet:text-lg sMobile:text-base gap-2 flex flex-col list-[disclosure-closed] p-6' >
+            <ul className='tablet:text-lg sMobile:text-base gap-2 flex flex-col list-[disclosure-closed] p-6' >
               <li>SCSS</li>
               <li>Tailwind</li>
               <li>Material UI</li>

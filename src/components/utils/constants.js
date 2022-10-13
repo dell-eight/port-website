@@ -1,22 +1,31 @@
-const projects = [
+import port_website from '../../assets/port-website.PNG';
+import speed_typing from '../../assets/typing-practice.PNG';
+import notes_app from '../../assets/notes-app.PNG';
+
+export const projects = [
   {
-    img: 'https://tagedstudio.com/wp-content/uploads/2019/03/82409-636282992381780999-16x9-960x540.jpg',
+    img: port_website,
     name: 'Portfolio Website',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
+    description:
+      'This is my first personal portfolio website that is responsive on any device.',
     techs: ['ReactJs', 'Tailwind CSS'],
+    ghUrl: '/',
   },
   {
-    img: 'https://tagedstudio.com/wp-content/uploads/2019/03/82409-636282992381780999-16x9-960x540.jpg',
-    name: 'Speed Typing Practice',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
+    img: speed_typing,
+    name: 'Typing Practice',
+    description: `Typing Practice is an app that tracks how many characters you have typed within your chosen time frame. \nThe character count is live-updated as you type, and you will be given a random quote to type.`,
     techs: ['ReactJs', 'SCSS', 'Material UI'],
+    ghUrl: '/speed-typing',
   },
   {
-    img: 'https://tagedstudio.com/wp-content/uploads/2019/03/82409-636282992381780999-16x9-960x540.jpg',
+    img: notes_app,
     name: 'Notes',
-    description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.`,
-    techs: ['ReactJs', 'SCSS', 'Material UI'],
+    description: `Notes app allows you to type on your own devices to record information, \nevery notes you save will be on the local storage of your device.`,
+    techs: ['ReactJs', 'Tailwind CSS'],
+    ghUrl: '/notes-app',
   },
 ];
 
-export default projects;
+export const resume_url =
+  'https://drive.google.com/file/d/1LGHHzg91hGZ-4AWAW3jYAH-T6YGQurzE/view?usp=sharing';

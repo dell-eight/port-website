@@ -5,6 +5,8 @@ import './App.css';
 
 
 const App = () => {
+
+
   return (
     <div className='laptop:mt-8 mobile:mt-2 '>
       <Navbar />

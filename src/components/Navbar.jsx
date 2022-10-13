@@ -28,7 +28,7 @@ const Navbar = () => {
           </li>
           <li className='hover:text-secondaryColor cursor-pointer
             border-b border-secondaryColor '>
-            <Link to='about' spy={true} offset={-80} smooth={true}>{`<About />`}</Link>
+            <Link to='about' spy={true} offset={-180} smooth={true}>{`<About />`}</Link>
           </li>
           <li className='hover:text-secondaryColor cursor-pointer
             border-b border-secondaryColor '>
