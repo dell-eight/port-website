@@ -9,7 +9,7 @@ export const projects = [
     description:
       'This is my first personal portfolio website that is responsive on any device.',
     techs: ['ReactJs', 'Tailwind CSS'],
-    ghUrl: '/',
+    ghUrl: '/port-website',
   },
   {
     img: speed_typing,
