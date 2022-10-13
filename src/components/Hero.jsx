@@ -6,7 +6,6 @@ import { BsArrowRight, BsArrowDown } from 'react-icons/bs'
 
 
 const Hero = () => {
-  console.log(resume_url)
   return (
     <div className='h-screen w-full -mt-20 flex flex-col items-center justify-center 
       gap-5 laptop:text-5xl tablet:text-4xl mobile:text-3xl sMobile:text-2xl' id='hero'>
