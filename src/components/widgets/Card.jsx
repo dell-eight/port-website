@@ -7,7 +7,10 @@ const Card2 = ({ img, name, description, techs, ghUrl }) => {
 
     return (
         <div className='flex items-center justify-center tablet:mt-20 sMobile:mt-10 laptop:mx-20 sMobile:mx-5'>
-            <img src={img} alt="" className='w-[60%] drop-shadow-lg z-10 hover:z-50 laptop:block sMobile:hidden '/>
+            <a href={websiteUrl + ghUrl} target="_blank" rel="noopener noreferrer"
+                className='w-[60%] z-10 hover:z-50 laptop:block sMobile:hidden '>
+                <img src={img} alt="" className=' drop-shadow-lg ' />
+            </a>
             <div className='p-5 card laptop:-ml-96 sMobile:ml-0 z-20' >
                 <p className='text-lg font-bold'>{name}</p>
                 <p className='mt-3 laptop:whitespace-pre sMobile:whitespace-normal'>{ description}</p>

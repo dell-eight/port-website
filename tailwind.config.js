@@ -20,6 +20,7 @@ module.exports = {
       colors: {
         badgeBackground: '#e2e2e5',
         backgroundGlass: 'rgba(238, 239, 253, 0.01)',
+        backTransparent: 'rgba(0, 0, 0, 0.05)',
         backgroundColor: '#eeeffd',
         primaryColor: '#262534',
         secondaryColor: '#8fbdf5',
