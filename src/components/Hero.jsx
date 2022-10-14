@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import Typewriter from 'typewriter-effect'
-import { resume_url } from './utils/constants'
 import { BsArrowRight, BsArrowDown } from 'react-icons/bs'
 
 
@@ -37,7 +36,6 @@ const Hero = () => {
       </div>
       <h1 className='font-extrabold laptop:text-[2.6rem] tablet:text-4xl mobile:text-2xl sMobile:text-xl'>{`<ImAWebDeveloper />`}</h1>
 
-      <a href={resume_url} target="_blank" rel="noopener noreferrer">
         <div className='mt-3 flex items-center justify-center cursor-pointer p-2 relative resume-container 
           tablet:ml-0 mobile:ml-5 ' >
           <BsArrowRight className='mr-2 text-lg' />
@@ -45,7 +43,6 @@ const Hero = () => {
             w-8 h-8 border border-secondaryColor rounded-full hover:w-[135%] circle ' ></div>
           <span className="ease-in duration-300 mobile:text-lg sMobile:text-base" >Resume</span>
         </div>
-      </a>
 
       <Link className='laptop:block sMobile:hidden' to='projects' spy={true} smooth={true} offset={-60}>
         <div className='absolute -ml-3 flex flex-col justify-center items-center bottom-10  cursor-pointer 

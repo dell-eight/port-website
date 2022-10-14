@@ -17,6 +17,7 @@ const About = () => {
             <ul className=' tablet:text-lg sMobile:text-base gap-2 flex flex-col list-[disclosure-closed]  p-6 '>
               <li>HTML, CSS, JS</li>
               <li>ReactJs</li>
+              <li>Firebase</li>
               <li>Git</li>
             </ul>
             <ul className='tablet:text-lg sMobile:text-base gap-2 flex flex-col list-[disclosure-closed] p-6' >
