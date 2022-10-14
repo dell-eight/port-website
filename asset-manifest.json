@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/port-website/static/css/main.efb90bbd.css",
-    "main.js": "/port-website/static/js/main.91a8ca88.js",
-    "static/media/port-website.PNG": "/port-website/static/media/port-website.3d5dce06503c9a23500a.PNG",
-    "static/media/typing-practice.PNG": "/port-website/static/media/typing-practice.b3e01a3c2886d65a2c23.PNG",
-    "static/media/notes-app.PNG": "/port-website/static/media/notes-app.df78ee3d671ac1f88a8c.PNG",
-    "index.html": "/port-website/index.html",
-    "static/media/ring_loader.svg": "/port-website/static/media/ring_loader.7576dff746f0457ca87940157275b366.svg",
-    "static/media/wave-bg.svg": "/port-website/static/media/wave-bg.cc7fa69ba876116c635bb660ddd6f21a.svg",
-    "main.efb90bbd.css.map": "/port-website/static/css/main.efb90bbd.css.map",
-    "main.91a8ca88.js.map": "/port-website/static/js/main.91a8ca88.js.map"
+    "main.css": "./static/css/main.efb90bbd.css",
+    "main.js": "./static/js/main.52ffe7c3.js",
+    "static/media/port-website.PNG": "./static/media/port-website.3d5dce06503c9a23500a.PNG",
+    "static/media/typing-practice.PNG": "./static/media/typing-practice.b3e01a3c2886d65a2c23.PNG",
+    "static/media/notes-app.PNG": "./static/media/notes-app.df78ee3d671ac1f88a8c.PNG",
+    "index.html": "./index.html",
+    "static/media/ring_loader.svg": "./static/media/ring_loader.7576dff746f0457ca87940157275b366.svg",
+    "static/media/wave-bg.svg": "./static/media/wave-bg.cc7fa69ba876116c635bb660ddd6f21a.svg",
+    "main.efb90bbd.css.map": "./static/css/main.efb90bbd.css.map",
+    "main.52ffe7c3.js.map": "./static/js/main.52ffe7c3.js.map"
   },
   "entrypoints": [
     "static/css/main.efb90bbd.css",
-    "static/js/main.91a8ca88.js"
+    "static/js/main.52ffe7c3.js"
   ]
 }
