@@ -28,4 +28,4 @@ export const projects = [
 ];
 
 export const resume_url =
-  'https://drive.google.com/file/d/1dYGoHzUjzbrOYd3vJzSchpjM5GNqR6vH/view?usp=sharing';
+  'https://drive.google.com/file/d/1KGm198_GI7kI5UEESUm3qTHJaUFof-_z/view?usp=sharing';
