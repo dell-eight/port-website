@@ -44,8 +44,9 @@ body {
   color: var(--primary-color);
   scroll-behavior: smooth;
 }
-.resume-container:hover > .circle {
-  width: 135%;
+.hire-me-container:hover > .circle {
+  width: 102%;
+  background-color: rgb(46, 46, 61);
 }
 
 .secondary-font {

@@ -4,6 +4,8 @@ import { Link } from 'react-scroll'
 import ToggleMenu from './ToggleMenu'
 
 
+
+
 const Navbar = () => {
 
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -22,6 +24,7 @@ const Navbar = () => {
         </h1>
         <HiOutlineMenuAlt1 className='tablet:hidden mobile:block text-3xl cursor-pointer' onClick={() => setMenuOpen((prev) => !prev)} />
         <ul className='gap-10 laptop:text-sm tablet:text-xs tablet:flex mobile:hidden hidden' >
+         
           <li className='hover:text-secondaryColor cursor-pointer
             border-b border-secondaryColor '>
             <Link to='projects' spy={true} offset={-120} smooth={true}>{`<Projects />`}</Link>

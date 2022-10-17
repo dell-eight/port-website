@@ -3,7 +3,8 @@ import emailjs from '@emailjs/browser';
 import toastr from 'toastr'
 import img from '../assets/wave-bg.svg' 
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
-import Loader  from './widgets/Loader'
+import Loader from './widgets/Loader'
+
 
 toastr.options = {
   closeButton: false,
@@ -52,7 +53,7 @@ const Contact = () => {
       <div className='h-full text-center bg-[#b6d5fc]' id='contact'>
       <h1 className='tablet:text-4xl sMobile:text-2xl font-bold '>{`<ContactMe />`}</h1>
         <div className='flex justify-center items-center tablet:mx-20 sMobile:mx-5 mt-10'>
-          <form ref={formRef} onSubmit={handleClickSubmit} className='grid gap-5 laptop:w-[60%] sMobile:w-full tablet:p-10 sMobile:p-4'>
+          <form ref={formRef} onSubmit={handleClickSubmit} className='grid gap-5 laptop:w-[50%] sMobile:w-full tablet:p-10 sMobile:p-4'>
               <input required autoCapitalize='on' type="name" placeholder='Name' name='name' className='w-full px-3 py-2 rounded-md' />
               <input required type="email" placeholder='Email Address' name='email' className='w-full px-3 py-2 rounded-md'/>
               <input required type="text" autoCapitalize='on' autoComplete='off' placeholder='Subject' name='subject' className='w-full px-3 py-2 rounded-md'/>
@@ -64,10 +65,10 @@ const Contact = () => {
                 </button>
               }
               <ul className='flex items-center justify-left gap-5 text-[27px] text-[#3f3d56] '>
-                <li className='cursor-pointer duration-200 ease-in hover:text-[#eeeffd] hover:-translate-y-1'>
+                <li className='cursor-pointer duration-200 ease-in hover:text-[#5b5879] hover:-translate-y-1'>
                   <a href="https://github.com/dell-eight" target="_blank" rel="noopener noreferrer"><BsGithub /></a>
                 </li>
-                <li className='cursor-pointer duration-200 ease-in hover:text-[#eeeffd] hover:-translate-y-1'>
+                <li className='cursor-pointer duration-200 ease-in hover:text-[#5b5879] hover:-translate-y-1'>
                   <a href="https://linkedin.com/in/wendell-villareal/ " target='_blank' rel="noopener noreferrer"><BsLinkedin /></a>
                 </li>
               </ul>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Hero, Projects, About, Contact } from './components';
+import FloatBtn from './components/widgets/FloatBtn'
 import './App.css';
 
 
@@ -14,6 +15,7 @@ const App = () => {
       <Projects />
       <About />
       <Contact />
+      <FloatBtn />
     </div>
   );
 };
