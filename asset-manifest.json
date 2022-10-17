@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/port-website/static/css/main.9d79f50e.css",
-    "main.js": "/port-website/static/js/main.1db8474a.js",
+    "main.css": "/port-website/static/css/main.c5016f8e.css",
+    "main.js": "/port-website/static/js/main.996d86ef.js",
     "static/media/typing-practice.PNG": "/port-website/static/media/typing-practice.b3e01a3c2886d65a2c23.PNG",
-    "static/media/port-website.PNG": "/port-website/static/media/port-website.3776dc4436021649f66a.PNG",
+    "static/media/resumeVillareal.pdf": "/port-website/static/media/resumeVillareal.8f553ce1bba948fce718.pdf",
+    "static/media/port-website.PNG": "/port-website/static/media/port-website.98c886cbe9e9eb0a2a47.PNG",
     "static/media/notes-app.PNG": "/port-website/static/media/notes-app.df78ee3d671ac1f88a8c.PNG",
     "index.html": "/port-website/index.html",
     "static/media/ring_loader.svg": "/port-website/static/media/ring_loader.7576dff746f0457ca87940157275b366.svg",
     "static/media/wave-bg.svg": "/port-website/static/media/wave-bg.cc7fa69ba876116c635bb660ddd6f21a.svg",
     "static/media/wave-bg-bot.svg": "/port-website/static/media/wave-bg-bot.0f8ffc4d1667c200527385e94299138d.svg",
-    "main.9d79f50e.css.map": "/port-website/static/css/main.9d79f50e.css.map",
-    "main.1db8474a.js.map": "/port-website/static/js/main.1db8474a.js.map"
+    "main.c5016f8e.css.map": "/port-website/static/css/main.c5016f8e.css.map",
+    "main.996d86ef.js.map": "/port-website/static/js/main.996d86ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d79f50e.css",
-    "static/js/main.1db8474a.js"
+    "static/css/main.c5016f8e.css",
+    "static/js/main.996d86ef.js"
   ]
 }
