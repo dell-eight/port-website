@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Card2 = ({ img, name, description, techs, ghUrl }) => {
+const Card2 = ({ img, name, description, techs, ghUrl, website }) => {
     
     const githubUrl = 'https://github.com/dell-eight'
-    const websiteUrl = 'https://dell-eight.github.io'
 
     return (
         <div className='flex items-center justify-center tablet:mt-20 sMobile:mt-10 laptop:mx-20 sMobile:mx-5'>
@@ -18,7 +17,7 @@ const Card2 = ({ img, name, description, techs, ghUrl }) => {
                 </div>
                 <div className='flex items-start justify-start mt-5 text-sm '>
                     <h1 className='underline underline-offset-2 cursor-pointer hover:text-secondaryColor mr-10'>
-                        <a href={websiteUrl+ghUrl} target="_blank" rel="noopener noreferrer">Live Demo</a>
+                        <a href={website} target="_blank" rel="noopener noreferrer">Live Demo</a>
                     </h1>
                     <h1 className='underline underline-offset-2 cursor-pointer hover:text-secondaryColor'>
                         <a href={githubUrl+ghUrl} target="_blank" rel="noopener noreferrer">{`<Code />`}</a>

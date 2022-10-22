@@ -40,10 +40,10 @@ const Hero = () => {
       <div className='flex tablet:flex-row sMobile:flex-col tablet:items-center sMobile:items-start justify-center mt-5'>
         <a href={pdfResume} download='WendellVillarealResume.pdf'>
           <button className='flex items-center justify-center p-2 relative hire-me-container hover:text-backgroundColor' >
-            <BsDownload className='mobile:mx-3 sMobile:mr-2 mobile:text-xl sMobile:text-lg z-20 ' />
+            <BsDownload className='mobile:mx-3 sMobile:mr-2 mobile:text-lg sMobile:text-sm z-20 ' />
             <div className='mobile:left-1 sMobile:left-0 top-0 absolute duration-300 ease-in inline-block 
-              w-0 laptop:h-12 sMobile:h-10 border-2 border-blue-400 rounded circle z-10' ></div>
-            <span className="ease-in duration-300 laptop:text-xl sMobile:text-base z-20 " >Download Resume</span>
+              w-0 laptop:h-11 sMobile:h-9 border-2 border-blue-400 rounded circle z-10' ></div>
+            <span className="ease-in duration-300 laptop:text-lg sMobile:text-sm z-20 " >Download Resume</span>
           </button>
         </a>
         
@@ -51,10 +51,10 @@ const Hero = () => {
         <Link to='contact' spy={true} offset={-100} smooth={true}  >
           <button className='flex items-center justify-center p-2 relative hire-me-container hover:text-backgroundColor 
           tablet:ml-20 sMobile:ml-0 tablet:mt-0 sMobile:mt-5' >
-            <BsChatRightText className='mobile:mx-3 sMobile:mr-2 mobile:text-xl sMobile:text-lg z-20 ' />
+            <BsChatRightText className='mobile:mx-3 sMobile:mr-2 mobile:text-lg sMobile:text-sm z-20 ' />
             <div className='mobile:left-1 sMobile:left-0 top-0 absolute duration-300 ease-in inline-block 
-              w-0 laptop:h-12 sMobile:h-10 border-2 border-blue-400 rounded circle z-10 ' ></div>
-            <span className="ease-in duration-300 laptop:text-xl sMobile:text-base z-20 " >Let's talk?</span>
+              w-0 laptop:h-11 sMobile:h-9 border-2 border-blue-400 rounded circle z-10 ' ></div>
+            <span className="ease-in duration-300 laptop:text-lg sMobile:text-sm z-20 " >Let's talk?</span>
           </button>
         </Link>
       </div>

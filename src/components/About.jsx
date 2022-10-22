@@ -24,6 +24,7 @@ const About = () => {
               <li>SCSS</li>
               <li>Tailwind</li>
               <li>Material UI</li>
+              <li>Bootstrap</li>
             </ul>
           </div>
         </div>

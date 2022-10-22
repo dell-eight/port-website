@@ -11,7 +11,14 @@ const Projects = () => {
         <h1 className=' text-center tablet:text-4xl sMobile:text-2xl font-bold'>{`<MyProjects />`}</h1>
       </div>
       {projects.map((project, idx) => {
-        return <Card key={idx} img={project.img} name={project.name} description={project.description} techs={project.techs} ghUrl={project.ghUrl} />
+        return <Card key={idx}
+          img={project.img}
+          name={project.name}
+          description={project.description}
+          techs={project.techs}
+          ghUrl={project.ghUrl}
+          website={project.website}  
+        />
       })}
     </>
     
